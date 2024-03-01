@@ -3,6 +3,7 @@ import ParticleBackground from "./components/Splash/ParticleBackground";
 import Portfolio from "./components/Portfolio/Portfolio";
 import { useState } from "react";
 
+
 const App = () => {
   const [portfolio, setPortfolio] = useState(false);
   const openPortfolio = () => {

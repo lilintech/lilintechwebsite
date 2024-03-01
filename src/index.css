@@ -11,8 +11,8 @@
 }
 
 :root {
-  --pink: #f37298;
-  --hot-pink: #ff00aa;
+  --pink: #DF1F2D;
+  --hot-pink: #B11313;
   --deep-blue: #0d294e;
   --blue: #4375b8;
   --grey: #495057;
@@ -176,7 +176,7 @@ p {
   transform: translate(-50%, -50%);
   width: 90vw;
   height: 90vh;
-  background-color: #f37299c5;
+  background-color: #EF5350;
   backdrop-filter: blur(10px);
   box-shadow: 3px 3px 60px rgba(0, 0, 0, 0.24);
   border: 2px solid white;
