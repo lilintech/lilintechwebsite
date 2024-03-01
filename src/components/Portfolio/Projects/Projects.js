@@ -64,7 +64,7 @@ const Projects = ({openMenu}) => {
       <div className="github-card github-icons">
         <a
           className="github-icon"
-          href="https://github.com/iamyajat"
+          href="https://github.com/lilintech"
           target="_blank"
           rel="noreferrer"
         >
