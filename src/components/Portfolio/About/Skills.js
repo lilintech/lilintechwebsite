@@ -1,11 +1,11 @@
 import {
   SiPython,
-  SiAndroid,
-  SiAndroidstudio,
+  SiFlutter,
   SiHtml5,
   SiCss3,
+  SiFirebase,
+  SiMicrosoftazure,
   SiJavascript,
-  SiCplusplus,
   SiC,
 } from "react-icons/si";
 import { useState } from "react";
@@ -18,14 +18,15 @@ const Skills = () => {
   ]);
 
   const [skills] = useState([
-    <SiPython data-tip="Python" className="ic-but" />,
-    <SiAndroid data-tip="Android Appdev" className="ic-but" />,
-    <SiAndroidstudio data-tip="Android Studio" className="ic-but" />,
     <SiHtml5 data-tip="HTML5" className="ic-but" />,
     <SiCss3 data-tip="CSS3" className="ic-but" />,
-    <SiJavascript data-tip="JavaScript" className="ic-but" />,
-    <SiCplusplus data-tip="C++" className="ic-but" />,
+    <SiMicrosoftazure data-tip="Azure Cloud" className="ic-but" />,
+    <SiPython data-tip="Python" className="ic-but" />,
+    <SiJavascript data-tip="Javascript" className="ic-but" />,
+    <SiFirebase data-tip="Firebase" className="ic-but" />,
+    <SiFlutter data-tip="Flutter" className="ic-but" />,
     <SiC data-tip="C" className="ic-but" />,
+
   ]);
 
   return (
